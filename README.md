@@ -89,7 +89,8 @@ Add tomact users in "tomact-folder/conf/tomact-users.xml" file like below
 vi conf/tomcat-user.xml
 ```
 
-add the following command
+add the following command, 
+**Note: That Id and password are set to be admin for the admin-gui**
 ```bash
 <role rolename="manager-gui" />
 <user username="tomcat" password="tomcat" roles="manager-gui" />
