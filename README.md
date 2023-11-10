@@ -75,7 +75,7 @@ vi ./webapps/host-manager/META-INF/context.xml
 vi ./webapps/manager/META-INF/context.xml
 ```
 
-Check this example, of how the allow attribute is been changed to ".*" from "127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1""
+Check this example, of how the allow attribute is been changed to `".*"` from `"127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1"`
 ```bash
 <Context antiResourceLocking="false" privileged="true" >
      <Valve className="org.apache.catalina.valves.RemoteAddrValve" allow=".*" />
