@@ -130,6 +130,8 @@ By default the tomcat server runs on port number 8080. So we need to update the 
 and you can check your Application at url structure similar to that given below
 `http://<your-server-ip>:8080/`
 
+Id and password will be `admin`.
+
 In that click on Manage App, and in application we will have our My-first-webapp, click on that and you will see the webapp being hosted.
 
 
