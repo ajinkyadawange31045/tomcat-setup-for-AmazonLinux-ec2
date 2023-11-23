@@ -71,7 +71,11 @@ or
 Comment value tag sections in below all files
 ```bash
 vi ./webapps/examples/META-INF/context.xml
+```
+```bash
 vi ./webapps/host-manager/META-INF/context.xml
+```
+```bash
 vi ./webapps/manager/META-INF/context.xml
 ```
 
